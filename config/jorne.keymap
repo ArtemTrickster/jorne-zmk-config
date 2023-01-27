@@ -13,7 +13,7 @@
 #define RSE 2
 #define ADJ 3
 #define GAME 4
-#define SPECIAL 5
+#define SPEC 5
 
 / {
         keymap {
@@ -79,7 +79,6 @@
            &kp B   &kp LCTRL   &kp Z  &kp X  &kp C  &kp V     &kp N  &kp M   &kp COMMA &kp DOT &kp FSLH &to 0
                                &mo 5  &kp SPACE  &kp LALT     &mt RALT RET  &kp BSPC   &lt RSE
                         >;
-
                };
                special_layer {
                         bindings = <
@@ -88,7 +87,6 @@
            &kp B     &trans     &kp Z   &kp X   &kp C   &kp V       &kp N  &kp M   &kp COMMA &kp DOT &kp FSLH &to 0
                                 &trans  &kp SPACE  &kp LALT         &mt RALT RET  &kp BSPC   &to 0
                         >;
-
                };
         };
 };
