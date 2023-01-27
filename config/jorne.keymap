@@ -92,10 +92,10 @@
 //       |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                          |     |     |     |   |     |     |     |
                         bindings = <
-   &kp LWIN &kp T &kp TAB &kp Q &trans &kp E &kp R &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT &mt RWIN RBKT
+   &kp LWIN &kp ESC &kp N1 &kp N2 &trans &kp N3 &kp N4 &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT &mt RWIN RBKT
             &kp G &kp LSHIFT &trans &trans &trans &kp F &kp H         &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL SQT
             &kp B  &kp LCTRL &kp Z &kp X &kp C &kp V &kp N         &kp M  &kp COMMA &to 0 &kp FSLH &kp BSLH
-                         &trans &kp SPACE &kp LALT &lt LWR ESC &mt RSHFT BSPC &lt RSE DEL
+                         &trans &trans &kp LALT &lt LWR ESC &mt RSHFT BSPC &lt RSE DEL
                         >;
                 };
         };
